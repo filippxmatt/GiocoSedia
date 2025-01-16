@@ -19,6 +19,8 @@ public class TestGiocoSedie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scrittore scrittore1 = new Scrittore("file1.txt");
+        
         Posto sedie[] = new Posto[NUMSEDIE];
 
 	for (int k = 0; k < sedie.length; k++)
@@ -35,7 +37,15 @@ public class TestGiocoSedie {
                 //System.out.println("Sto facendo partire il thread n." + array[i].getId());
                 logger.info("Sto facendo partire il thread id: " + array[i].getId()+" name: "+array[i].getName()+"\n");
                 array[i].start();
-                }
-	}
+                try {
+            array[i].join();
+            if (array[i].isAlive()) {
+                scrittore1.scrivi("Thread " + array[i].getId() + " si è seduto.");
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+      }
+           System.out.println("Thread avviati per scrivere sui file. \n");
     }
- 
+}

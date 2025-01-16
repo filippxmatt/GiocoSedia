@@ -24,7 +24,7 @@ class Partecipante extends Thread
 				}
 			}
 			System.out.println("Sono il Thread " + this.getName()
-					+ ". Ho perso :((((");
+					+ ". Ho perso");
 
 		} catch (InterruptedException e) {
 			throw new RuntimeException(e);
