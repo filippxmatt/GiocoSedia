@@ -19,7 +19,7 @@ public class TestGiocoSedie {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scrittore scrittore1 = new Scrittore("file1.txt");
+        Scrittore scrittore1 = new Scrittore("Risultato.txt");
         
         Posto sedie[] = new Posto[NUMSEDIE];
 
@@ -33,7 +33,7 @@ public class TestGiocoSedie {
 
 	Partecipante array[] = new Partecipante[NUMSEDIE+1];
 	for (int i = 0; i < NUMSEDIE + 1; i++) {
-		array[i] = new Partecipante(sedie);
+		array[i] = new Partecipante(sedie, scrittore1);
                 //System.out.println("Sto facendo partire il thread n." + array[i].getId());
                 logger.info("Sto facendo partire il thread id: " + array[i].getId()+" name: "+array[i].getName()+"\n");
                 array[i].start();
