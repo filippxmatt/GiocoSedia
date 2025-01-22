@@ -21,8 +21,6 @@ public class Scrittore{
     
     /**
      * Scrive un file di testo usando la classe BufferedWriter
-     * @param Id
-     * @param Posto
      */
     public synchronized void scrivi(String contenuto){
         BufferedWriter br=null;
@@ -37,7 +35,6 @@ public class Scrittore{
         finally{
             if (br!=null)
                 try {
-                    //4)chiudo lo stream in uscita
                     br.close();
             } catch (IOException ex) {
                 Logger.getLogger(Scrittore.class.getName()).log(Level.SEVERE, null, ex);

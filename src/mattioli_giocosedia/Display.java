@@ -1,13 +1,10 @@
 package mattioli_giocosedia;
 
-class Display extends Thread
-
-{
-	private Posto sedie[];
+class Display extends Thread {
+	private final Posto[] sedie;
 	private boolean endgame;
 
-	public Display(Posto sedie[]) {
-
+	public Display(Posto[] sedie) {
 
 		this.sedie = new Posto[sedie.length];
 
@@ -16,7 +13,6 @@ class Display extends Thread
 	}
 
 	public void run() {
-
 		try {
 			while (!endgame) {
 				int count = 0;

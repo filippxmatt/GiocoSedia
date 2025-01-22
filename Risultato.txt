@@ -1,0 +1,61 @@
+Sono il Thread Thread-2. Sono riuscito a sedermi sul posto 0
+Sono il Thread Thread-14. Sono riuscito a sedermi sul posto 1
+Sono il Thread Thread-1. Sono riuscito a sedermi sul posto 2
+Sono il Thread Thread-6. Sono riuscito a sedermi sul posto 3
+Sono il Thread Thread-3. Sono riuscito a sedermi sul posto 4
+Sono il Thread Thread-4. Sono riuscito a sedermi sul posto 5
+Sono il Thread Thread-8. Sono riuscito a sedermi sul posto 6
+Sono il Thread Thread-15. Sono riuscito a sedermi sul posto 7
+Sono il Thread Thread-13. Sono riuscito a sedermi sul posto 8
+Sono il Thread Thread-7. Sono riuscito a sedermi sul posto 9
+Sono il Thread Thread-12. Sono riuscito a sedermi sul posto 10
+Sono il Thread Thread-11. Sono riuscito a sedermi sul posto 11
+Sono il Thread Thread-5. Sono riuscito a sedermi sul posto 12
+Sono il Thread Thread-9. Ho perso
+Sono il Thread Thread-10. Sono riuscito a sedermi sul posto 13
+Sono il Thread Thread-10. Sono riuscito a sedermi sul posto 0
+Sono il Thread Thread-5. Sono riuscito a sedermi sul posto 1
+Sono il Thread Thread-6. Sono riuscito a sedermi sul posto 2
+Sono il Thread Thread-4. Sono riuscito a sedermi sul posto 3
+Sono il Thread Thread-3. Sono riuscito a sedermi sul posto 4
+Sono il Thread Thread-2. Sono riuscito a sedermi sul posto 5
+Sono il Thread Thread-1. Sono riuscito a sedermi sul posto 6
+Sono il Thread Thread-12. Sono riuscito a sedermi sul posto 7
+Sono il Thread Thread-9. Sono riuscito a sedermi sul posto 8
+Sono il Thread Thread-8. Sono riuscito a sedermi sul posto 9
+Sono il Thread Thread-14. Sono riuscito a sedermi sul posto 10
+Sono il Thread Thread-7. Sono riuscito a sedermi sul posto 11
+Sono il Thread Thread-13. Sono riuscito a sedermi sul posto 12
+Sono il Thread Thread-11. Sono riuscito a sedermi sul posto 13
+Sono il Thread Thread-15. Ho perso
+Sono il Thread 0. Sono riuscito a sedermi sul posto 0
+Sono il Thread 10. Sono riuscito a sedermi sul posto 1
+Sono il Thread 14. Sono riuscito a sedermi sul posto 2
+Sono il Thread 3. Sono riuscito a sedermi sul posto 3
+Sono il Thread 8. Sono riuscito a sedermi sul posto 4
+Sono il Thread 11. Sono riuscito a sedermi sul posto 5
+Sono il Thread 9. Sono riuscito a sedermi sul posto 6
+Sono il Thread 1. Sono riuscito a sedermi sul posto 7
+Sono il Thread 12. Sono riuscito a sedermi sul posto 8
+Sono il Thread 7. Sono riuscito a sedermi sul posto 9
+Sono il Thread 5. Sono riuscito a sedermi sul posto 10
+Sono il Thread 6. Sono riuscito a sedermi sul posto 11
+Sono il Thread 2. Sono riuscito a sedermi sul posto 12
+Sono il Thread 4. Sono riuscito a sedermi sul posto 13
+Sono il Thread 13. Ho perso
+Sono il Thread 11. Sono riuscito a sedermi sul posto 0
+Sono il Thread 5. Sono riuscito a sedermi sul posto 1
+Sono il Thread 7. Sono riuscito a sedermi sul posto 2
+Sono il Thread 14. Sono riuscito a sedermi sul posto 3
+Sono il Thread 1. Sono riuscito a sedermi sul posto 4
+Sono il Thread 6. Sono riuscito a sedermi sul posto 5
+Sono il Thread 8. Sono riuscito a sedermi sul posto 6
+Sono il Thread 4. Sono riuscito a sedermi sul posto 7
+Sono il Thread 2. Sono riuscito a sedermi sul posto 8
+Sono il Thread 13. Sono riuscito a sedermi sul posto 9
+Sono il Thread 10. Sono riuscito a sedermi sul posto 10
+Sono il Thread 9. Sono riuscito a sedermi sul posto 11
+Sono il Thread 0. Sono riuscito a sedermi sul posto 12
+Sono il Thread 12. Sono riuscito a sedermi sul posto 13
+Sono il Thread 3. Ho perso
+
