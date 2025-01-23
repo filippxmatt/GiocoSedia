@@ -21,13 +21,15 @@ public class Scrittore{
     
     /**
      * Scrive un file di testo usando la classe BufferedWriter
-     * @param Id
-     * @param Posto
      */
+    
+    //il synchronized permette di passare il contenuto dato in output da partecipante a questo metodo
     public synchronized void scrivi(String contenuto){
         BufferedWriter br=null;
         try {
             br = new BufferedWriter(new FileWriter(nomeFile, true));
+            
+            //viene scritto nel file l'output di partecipante
             br.write(contenuto);
             br.write("\n\r");
             br.flush();         

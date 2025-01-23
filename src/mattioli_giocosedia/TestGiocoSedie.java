@@ -12,6 +12,8 @@ import java.util.logging.Logger;
  * @author Filippo Mattioli
  */
 public class TestGiocoSedie {
+    
+    //Dichiara il numero di giocatori, in questo caso 15
     private final static int NUMSEDIE = 15;
     private static Logger logger = Logger.getLogger("GiocoSedie.TestGiocoSedie");
     
@@ -30,7 +32,8 @@ public class TestGiocoSedie {
 	//System.out.println("Sto facendo partire il Display.");
         logger.info("Sto facendo partire il Display.\n");
 	display.start();
-
+        
+        //il blocco di codice che segue gestisce la "partenza" dei threads
 	Partecipante array[] = new Partecipante[NUMSEDIE+1];
 	for (int i = 0; i < NUMSEDIE + 1; i++) {
 		array[i] = new Partecipante(sedie, scrittore1);
