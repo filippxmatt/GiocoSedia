@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"mattioli_giocosedia","l":"Scrittore"},{"p":"mattioli_giocosedia","l":"TestGiocoSedie"}];updateSearchResults();

@@ -38,7 +38,7 @@ public class TestGiocoSedie {
 	display.start();
 
 	Partecipante array[] = new Partecipante[numPartecipanti];
-	for (int i = 0; i < numPartecipanti + 1; i++) {
+	for (int i = 0; i < numPartecipanti; i++) {
 		array[i] = new Partecipante(sedie, scrittore1, i);
                 //System.out.println("Sto facendo partire il thread n." + array[i].getId());
                 logger.info("Sto facendo partire il thread id: " + array[i].getId()+" name: "+array[i].getName()+"\n");
