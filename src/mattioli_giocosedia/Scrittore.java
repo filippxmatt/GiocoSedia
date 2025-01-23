@@ -21,6 +21,7 @@ public class Scrittore{
     
     /**
      * Scrive un file di testo usando la classe BufferedWriter
+     * @param contenuto
      */
     
     //il synchronized permette di passare il contenuto dato in output da partecipante a questo metodo
