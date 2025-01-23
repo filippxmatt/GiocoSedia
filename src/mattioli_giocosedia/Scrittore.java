@@ -28,16 +28,23 @@ public class Scrittore{
     public synchronized void scrivi(String contenuto){
         BufferedWriter br=null;
         try {
+            //istanza esplicita br - classe di wrapping
+            //BufferedWriter: riga per riga
+            //FileWriter: carattere per carattere
             br = new BufferedWriter(new FileWriter(nomeFile, true));
             
             //viene scritto nel file l'output di partecipante
+            //salva file sulla RAM
             br.write(contenuto);
             br.write("\n\r");
+            //salva file dalla RAM alla memoria
             br.flush();         
         } catch (IOException ex) {
             Logger.getLogger(Scrittore.class.getName()).log(Level.SEVERE, null, ex);
         }
         finally{
+            //se il file è stato creato ed esiste nella RAM (solo nel caso di errori nel flush())
+            //errore di tipo NullPointerException
             if (br!=null)
                 try {
                     //4)chiudo lo stream in uscita
